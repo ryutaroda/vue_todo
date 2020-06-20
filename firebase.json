@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "vue-de-todo-list",
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
